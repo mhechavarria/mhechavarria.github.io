@@ -6,7 +6,7 @@ import { SettingsStore } from "./store";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <SettingsStore>
         <Switch>
           <Route exact path="/" component={Home} />
